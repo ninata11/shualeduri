@@ -1,0 +1,70 @@
+body {
+  max-width: 1502px;
+  width: 84%;
+  margin: auto;
+}
+@font-face {
+  font-family: poppin;
+  src: url(../css/fonts/Poppins-Regular.ttf);
+}
+/* this is header */
+header img {
+  max-width: 48px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 48px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: poppin;
+}
+.line {
+  border-bottom: 2px solid #29b24e;
+}
+
+.sell button {
+  min-width: 156px;
+  min-height: 47px;
+  border-radius: 12px;
+  border: none;
+  background-color: #29b24e;
+  font-family: poppin;
+  font-size: 14px;
+  color: #ffffff;
+}
+/* this is section */
+.section-1 {
+  margin-top: 41px;
+}
+.selector select {
+  min-width: 331px;
+  min-height: 48px;
+  border: 1px solid #0d9ca436;
+  font-family: poppin;
+  font-size: 14px;
+}
+
+.checkboxes label {
+  display: block;
+  font-family: poppin;
+  font-size: 14px;
+}
+.checkboxes label input {
+  float: left;
+  margin-right: 12px;
+  border: 1.4px solid #29b24e;
+}
+.section-1 h3 {
+  font-family: poppin;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.grey {
+  color: grey;
+}
