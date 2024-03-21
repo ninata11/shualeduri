@@ -9,13 +9,14 @@
   }
   .home-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 44px;
     margin-top: 70px;
   }
 
   .booking {
     max-width: 375px;
+    padding: 12px 20px 13px 20px;
   }
   .booking span {
     font-size: 14px;
@@ -38,6 +39,12 @@
     font-size: 12px;
 
     margin-bottom: 24px;
+  }
+  .rooms span {
+    color: rgba(0, 0, 0, 1);
+    font-size: 10px;
+    font-family: poppin;
+    opacity: 80%;
   }
 
   .unorder-list {
