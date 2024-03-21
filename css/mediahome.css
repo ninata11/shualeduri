@@ -1,4 +1,9 @@
 @media (max-width: 1024px) {
+  body {
+    max-width: 375px;
+    width: 89%;
+    margin: auto;
+  }
   header {
     display: none;
   }
@@ -11,21 +16,96 @@
 
   .booking {
     max-width: 375px;
-
-    padding: 30px 40px 10px 30px;
+  }
+  .booking span {
+    font-size: 14px;
+  }
+  .unorder-list {
     display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .booking h2 {
+    font-size: 18px;
+  }
 
+  .booking p {
+    font-size: 12px;
+
+    margin-bottom: 24px;
+  }
+  .light {
+    font-size: 12px;
+
+    margin-bottom: 24px;
+  }
+
+  .unorder-list {
+    display: flex;
+  }
+  .unorder-list {
+    display: flex;
     flex-direction: column;
-
-    border-radius: 24px;
-    background-color: rgba(248, 248, 248, 1);
+    margin-top: 16px;
   }
-  .home-nav {
+  .unorder-list div div {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
   }
-  .booking span img {
-    max-width: 16px;
+  .unorder-list div h3 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    font-family: poppin;
+    opacity: 60%;
+    margin-bottom: 12px;
+  }
+  .unorder-list div span {
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-family: poppin;
+    font-weight: 500;
+    opacity: 80%;
+    text-align: right;
+  }
+  .list-3 {
+    display: flex;
+
+    justify-content: space-between;
+  }
+  .list-3 span {
+    text-align: right;
+  }
+
+  .price-2 {
+    font-size: 24px;
+  }
+
+  .price-2 span {
+    font-size: 12px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .message {
+    max-width: 334px;
+    width: 100%;
+    min-height: 47px;
+    order: 2;
+  }
+  .call {
+    order: 1;
+    max-width: 334px;
+    width: 100%;
+    min-height: 47px;
+    margin-top: 44px;
+    margin-bottom: 12px;
+  }
+  .call a {
+    color: rgba(255, 255, 255, 1);
+    font-family: poppin;
+    font-size: 14px;
   }
 }

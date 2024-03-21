@@ -418,6 +418,46 @@ ol {
   justify-content: space-around;
   margin-top: 20px;
 }
+
+.unorder-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-3 {
+  max-width: 133px;
+}
+.list-3 h3 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  font-family: poppin;
+  opacity: 60%;
+  margin-bottom: 4px;
+}
+.list-3 span {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-family: poppin;
+  font-weight: 500;
+  opacity: 80%;
+}
+.unorder-list div div h3 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  font-family: poppin;
+  opacity: 60%;
+  margin-bottom: 4px;
+}
+.unorder-list div {
+  margin-bottom: 16px;
+}
+.unorder-list div div span {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-family: poppin;
+  font-weight: 500;
+  opacity: 80%;
+}
 .booking h2 {
   color: rgba(0, 0, 0, 1);
   font-size: 22px;
