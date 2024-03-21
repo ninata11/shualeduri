@@ -1,0 +1,129 @@
+@media (max-width: 1024px) {
+  header nav {
+    display: none;
+  }
+  .sell button {
+    display: none;
+  }
+  .search-button {
+    display: block;
+  }
+  .big-container {
+    flex-wrap: wrap;
+    max-width: 375px;
+  }
+  .section-2 {
+    order: 1;
+    max-width: 335px;
+
+    margin-bottom: 20px;
+  }
+  .image img {
+    min-height: 435px;
+  }
+  .section-1 {
+    order: 2;
+    max-width: 375px;
+  }
+  .search {
+    max-width: 294px;
+  }
+  .checkboxes {
+    margin-bottom: 32px;
+  }
+  .search h2 {
+    font-size: 24px;
+    font-family: poppin;
+    font-weight: 600;
+    color: #000000cc;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .search p {
+    font-size: 14px;
+  }
+  .search-bar {
+    display: none;
+  }
+  .selector {
+    padding: 13px;
+  }
+  .selector select {
+    min-width: 331px;
+  }
+
+  .price-range {
+    margin-top: 41px;
+  }
+  .big-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .article {
+    max-width: 335px;
+  }
+
+  .vip span {
+    font-family: poppin;
+    font-size: 12px;
+    font-weight: 500px;
+    color: #ffffff;
+  }
+  .article h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-family: poppin;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .city {
+    font-size: 14px;
+    font-family: poppin;
+    color: rgba(0, 0, 0, 1);
+  }
+  .line-2 {
+    max-width: 395px;
+    min-height: 1px;
+    background-color: #cfead6;
+    margin-bottom: 24px;
+  }
+  .ellipse {
+    padding: 11px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+
+    margin-top: -25px;
+  }
+  .frame {
+    max-width: 18px;
+  }
+
+  .price {
+    color: #29b24e;
+    font-family: poppin;
+    font-size: 24px;
+    text-align: right;
+    margin: 15px 0px 16px 0px;
+  }
+  .price span {
+    color: #000000;
+    font-family: poppin;
+    font-size: 12px;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrapper span {
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-family: poppin;
+  }
+}

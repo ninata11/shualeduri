@@ -13,6 +13,17 @@ header {
   width: 85%;
   margin: auto;
 }
+.search-button {
+  display: none;
+  max-width: 44px;
+  background-color: rgba(248, 248, 248, 1);
+
+  border-radius: 50%;
+  padding: 11px;
+}
+.search-button img {
+  max-width: 20px;
+}
 section {
   max-width: 1920px;
   width: 85%;
@@ -39,7 +50,7 @@ header nav ul {
 
 .sell button {
   min-width: 156px;
-  min-height: 47px;
+  padding: 13px 26px;
   border-radius: 12px;
   border: none;
   background-color: #29b24e;
@@ -50,12 +61,8 @@ header nav ul {
 /* this is section */
 .section-1 {
   background-color: #c2c2c24f;
-  min-width: 395px;
-  max-width: 751px;
   border-radius: 24px;
   display: flex;
-  /* justify-content: space-around;
-  align-items: center; */
 }
 .selector {
   padding: 32px;
@@ -86,7 +93,7 @@ header nav ul {
 }
 .checkboxes label input {
   float: left;
-
+  margin-right: 12px;
   border: 1.4px solid #29b24e;
 }
 .section-1 h3 {
@@ -103,15 +110,17 @@ header nav ul {
 .big-container {
   display: flex;
   margin-top: 41px;
-  max-height: 751px;
 }
 .section-2 {
   max-width: 1225px;
-
   margin-left: 20px;
 }
 .section-2 .image {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 .section-2 img {
   border-radius: 24px;
@@ -119,14 +128,15 @@ header nav ul {
 
 .search {
   position: absolute;
-  max-width: 1225px;
-
-  top: 191px;
+  max-width: 749px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 61%;
+
+  top: 10%;
+
+  width: 100%;
   margin: auto;
 }
 .search h2 {
@@ -198,26 +208,7 @@ header nav ul {
 .position {
   position: relative;
 }
-.vip {
-  background-color: #29b24e;
-  max-width: 76px;
-  width: 100%;
-  min-height: 30px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-radius: 15px;
 
-  position: absolute;
-  margin-top: 12px;
-  margin-left: 12px;
-}
-.vip span {
-  font-family: poppin;
-  font-size: 12px;
-  font-weight: 500px;
-  color: #ffffff;
-}
 .article h3 {
   margin-top: 16px;
   margin-bottom: 8px;
@@ -237,21 +228,20 @@ header nav ul {
   margin-bottom: 24px;
 }
 .ellipse {
-  max-width: 40px;
-  width: 100%;
-  min-height: 40px;
+  padding: 11px;
   background-color: #ffffff;
   border-radius: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: absolute;
+
   margin-top: -25px;
-  margin-left: 240px;
 }
 .frame {
   max-width: 18px;
 }
+
 .price {
   color: #29b24e;
   font-family: poppin;
@@ -267,6 +257,11 @@ header nav ul {
 .wrapper {
   display: flex;
   justify-content: space-between;
+}
+.wrapper span {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-family: poppin;
 }
 .big-section {
   display: grid;
@@ -318,4 +313,185 @@ ol {
   font-size: 14px;
   font-family: poppin;
   font-weight: 400;
+}
+/* This is home page */
+.home-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  gap: 44px;
+  margin-top: 70px;
+}
+.home-container img {
+  max-width: 810px;
+
+  width: 100%;
+}
+.booking {
+  max-width: 786px;
+
+  padding: 30px 40px 10px 30px;
+  display: flex;
+
+  flex-direction: column;
+
+  border-radius: 24px;
+  background-color: rgba(248, 248, 248, 1);
+}
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking span img {
+  max-width: 16px;
+}
+.booking span {
+  font-size: 12px;
+  font-family: poppin;
+}
+.vip-2 {
+  background-color: #29b24e;
+  max-width: 76px;
+  width: 100%;
+  min-height: 30px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  font-family: poppin;
+  font-size: 12px;
+  font-weight: 500px;
+  color: #ffffff;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  font-family: poppin;
+  font-weight: 500;
+}
+.home-nav :nth-child(2) {
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  font-family: poppin;
+  font-weight: 500;
+  opacity: 60%;
+}
+.view :nth-child(2) {
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  font-family: poppin;
+  font-weight: 500;
+}
+.line-3 {
+  background-color: rgba(236, 236, 236, 1);
+  min-height: 1px;
+}
+.unorder-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.booking h2 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 22px;
+  font-family: poppin;
+  font-weight: 600;
+  margin: 27px 0 12px 0;
+}
+
+.booking p {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-family: poppin;
+  margin-bottom: 30px;
+}
+.light {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-family: poppin;
+  opacity: 60%;
+  margin-bottom: 32px;
+}
+.rooms {
+  display: flex;
+  gap: 24px;
+  margin: 16px 0 16px 0;
+}
+.rooms span {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-family: poppin;
+  opacity: 80%;
+}
+.unorder-list {
+  margin-bottom: 10px;
+}
+.unorder-list div ul li h4 {
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  font-family: poppin;
+  opacity: 60%;
+  margin-bottom: 4px;
+}
+.unorder-list div ul li {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-family: poppin;
+  font-weight: 500;
+  opacity: 80%;
+  margin-bottom: 16px;
+}
+.unorder-list :nth-child(2) ul li {
+  margin-bottom: 4px;
+}
+.price-2 {
+  color: #29b24e;
+  font-family: poppin;
+  font-size: 36px;
+  font-weight: 600;
+}
+.price-2 span {
+  color: #000000;
+  font-family: poppin;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.message {
+  max-width: 153px;
+  width: 100%;
+  max-height: 47px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(41, 178, 78, 1);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.call {
+  max-width: 80px;
+  width: 100%;
+  max-height: 47px;
+  background-color: rgba(41, 178, 78, 1);
+
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.call a {
+  color: rgba(255, 255, 255, 1);
+  font-family: poppin;
+  font-size: 14px;
 }
