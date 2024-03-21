@@ -73,57 +73,26 @@
     color: #ffffff;
   }
   .article h3 {
-    margin-top: 16px;
-    margin-bottom: 8px;
-    font-family: poppin;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
   }
   .city {
-    font-size: 14px;
-    font-family: poppin;
-    color: rgba(0, 0, 0, 1);
-  }
-  .line-2 {
-    max-width: 395px;
-    min-height: 1px;
-    background-color: #cfead6;
-    margin-bottom: 24px;
-  }
-  .ellipse {
-    padding: 11px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-
-    margin-top: -25px;
-  }
-  .frame {
-    max-width: 18px;
-  }
-
-  .price {
-    color: #29b24e;
-    font-family: poppin;
-    font-size: 24px;
-    text-align: right;
-    margin: 15px 0px 16px 0px;
-  }
-  .price span {
-    color: #000000;
-    font-family: poppin;
     font-size: 12px;
   }
-  .wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
   .wrapper span {
-    color: rgba(0, 0, 0, 1);
-    font-size: 14px;
-    font-family: poppin;
+    font-size: 12px;
+  }
+  footer {
+    margin-top: 50px;
+    padding: 40px 20px;
+  }
+  ol {
+    display: flex;
+
+    flex-direction: column;
+
+    font-size: 16px;
+  }
+  .mail {
+    display: none;
   }
 }

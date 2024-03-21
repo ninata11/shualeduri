@@ -80,6 +80,7 @@ header nav ul {
 }
 .checkboxes {
   margin-top: 13px;
+  margin-bottom: 32px;
 }
 .price-range {
   margin-top: 39px;
@@ -208,7 +209,26 @@ header nav ul {
 .position {
   position: relative;
 }
+.vip {
+  background-color: #29b24e;
+  max-width: 76px;
+  width: 100%;
+  min-height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
 
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.vip span {
+  font-family: poppin;
+  font-size: 12px;
+  font-weight: 500px;
+  color: #ffffff;
+}
 .article h3 {
   margin-top: 16px;
   margin-bottom: 8px;

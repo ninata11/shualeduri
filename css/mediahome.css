@@ -1,0 +1,31 @@
+@media (max-width: 1024px) {
+  header {
+    display: none;
+  }
+  .home-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+    margin-top: 70px;
+  }
+
+  .booking {
+    max-width: 375px;
+
+    padding: 30px 40px 10px 30px;
+    display: flex;
+
+    flex-direction: column;
+
+    border-radius: 24px;
+    background-color: rgba(248, 248, 248, 1);
+  }
+  .home-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .booking span img {
+    max-width: 16px;
+  }
+}
