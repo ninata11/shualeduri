@@ -1,12 +1,10 @@
 @media (max-width: 1024px) {
-  body {
+  section {
     max-width: 375px;
     width: 89%;
     margin: auto;
   }
-  header {
-    display: none;
-  }
+
   .home-container {
     display: flex;
     flex-direction: column;
@@ -77,7 +75,6 @@
   }
   .list-3 {
     display: flex;
-
     justify-content: space-between;
   }
   .list-3 span {

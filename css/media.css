@@ -81,7 +81,8 @@
   .wrapper span {
     font-size: 12px;
   }
-  footer {
+
+  .footer {
     margin-top: 50px;
     padding: 40px 20px;
   }
@@ -94,5 +95,16 @@
   }
   .mail {
     display: none;
+  }
+  .d-fixed {
+    width: 100%;
+    margin-top: 72px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    bottom: 0;
+    z-index: 100;
+  }
+  .empty-space {
+    display: block;
   }
 }
