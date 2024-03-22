@@ -17,10 +17,10 @@ header {
   display: none;
   max-width: 44px;
   background-color: rgba(248, 248, 248, 1);
-
   border-radius: 50%;
   padding: 11px;
 }
+
 .search-button img {
   max-width: 20px;
 }
@@ -59,6 +59,11 @@ header nav ul {
   color: #ffffff;
 }
 /* this is section */
+.big-container {
+  display: flex;
+  margin-top: 41px;
+  gap: 20px;
+}
 .section-1 {
   background-color: #c2c2c24f;
   border-radius: 24px;
@@ -108,13 +113,9 @@ header nav ul {
 }
 
 /* section 2 */
-.big-container {
-  display: flex;
-  margin-top: 41px;
-}
+
 .section-2 {
   max-width: 1225px;
-  margin-left: 20px;
 }
 .section-2 .image {
   position: relative;
@@ -239,6 +240,7 @@ header nav ul {
 .city {
   font-size: 14px;
   font-family: poppin;
+  opacity: 50%;
   color: rgba(0, 0, 0, 1);
 }
 .line-2 {
